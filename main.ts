@@ -11,6 +11,6 @@ basic.forever(function () {
         . . # . .
         `)
     basic.pause(100)
-    basic.showString("lol")
+    basic.showString("APPLE")
     basic.pause(100)
 })
