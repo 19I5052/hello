@@ -1,7 +1,7 @@
 basic.forever(function () {
-    basic.showIcon(IconNames.Silly)
+    basic.showIcon(IconNames.Happy)
     basic.pause(100)
-    basic.showIcon(IconNames.Skull)
+    basic.showIcon(IconNames.Ghost)
     basic.pause(100)
     basic.showLeds(`
         . . # . .
@@ -10,5 +10,7 @@ basic.forever(function () {
         . # . # .
         . . # . .
         `)
+    basic.pause(100)
+    basic.showString("lol")
     basic.pause(100)
 })
